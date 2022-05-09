@@ -11,13 +11,13 @@ amountOfStudents = 0
 sumOfStudentHeights = 0
 
 #loop through the list
-for j in range(len(student_heights)):
-    #print(student_heights[j])
-     sumOfStudentHeights += student_heights[j]
+for j in student_heights:
+     sumOfStudentHeights += j
      amountOfStudents += 1
 
 average = round(sumOfStudentHeights/amountOfStudents)
 print(f"{average}")
+
 
 
 
