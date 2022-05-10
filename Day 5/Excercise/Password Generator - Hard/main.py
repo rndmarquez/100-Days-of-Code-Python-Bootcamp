@@ -30,6 +30,8 @@ for k in range(0, nr_numbers):
 
 #combine all list  to a single list
 password = choiceLetters + choiceSymbols + choiceNumbers
+
+#shuffle choices
 random.shuffle(password)
 
 #join all contents of list into a single string
